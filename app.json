@@ -6,18 +6,15 @@
   "env": {
       "LINE_CHANNEL_SECRET": {
           "description": "Secret key to validate the access to your webhook. You can find it in LINE Developers Console.",
-          "required": true,
-          "value":"U60f1a9eda60e8ec8945153756bdf6180"
+          "required": true
       },
       "LINE_ACCESS_TOKEN": {
           "description": "Token to add to your API call for LINE Messaging API. You can find it in LINE Developers Console.",
-          "required": true,
-          "value":"gqbwkMYrxefkPz+Sh5mAUGdbNkMst37K44oD5g2Du1VhEZjzfNayxeUE6SqpbsgWgYGaUqydAC/lBXw//yrToumMRv1i2GiyCLqlozT/sz/jou1LXGJz5XzDA3skvf9Sk6i8PjQoGLSO9PWRpSo4dwdB04t89/1O/w1cDnyilFU="
+          "required": true
       },
       "LINE_ADMIN_USER_ID": {
           "description": "Admin's LINE user id whom Bot escalates the question.",
-          "required": true,
-          "value":"U60f1a9eda60e8ec8945153756bdf6180"
+          "required": true
       },
       "GOOGLE_PROJECT_ID": {
           "description": "Project ID of Google Cloud Platform which can be found in Agent configuration page of Dialogflow.",
@@ -25,18 +22,15 @@
       },
       "GOOGLE_CLIENT_EMAIL": {
           "description": "Client Email of Google Cloud Platform which can be found in Agent configuration page of Dialogflow.",
-          "required": true,
-          "value":"newagent-aoqmyn"
+          "required": true
       },
       "GOOGLE_PRIVATE_KEY": {
           "description": "Private Key of Google Cloud Platform which can be found in JSON formatted key file of Google Service Account.",
-          "required": true,
-          "value":"-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCV+8nHv9sRz14o\nLX6wHkxktnLbGFItcwZbGYQuipt9UYABMMXWPJnz01AsyWOXbuDUOONo60LEXtLg\nPC4ZszbQUxewlrVXDw2PEj4s7EbaJYUx4ed+JcFkeBuXRycehhaC7NdFCDvjkbWc\n7nBn0S4UeOwZuewoDTa7BrMBjTGYQZ9oQAqekyHEE0/DZWXpQT2g2+qhAqbG3MBQ\nwILcXhRohNJjyfPlOJ0WL+04gnmrOP4X5PiC+YDwLNIOE16xeO20bciP9mVDizcm\n9K4DhFc9nr19YbEZvZY0MBkchQWx0gwLgKj6SzQP3/pXvSV8npsSLRH/mX4n6oEH\nDK5XNNMpAgMBAAECggEACn1PGezFngPCQo4X/6pGzn5iHwee67XROnrY30ZrZILY\nMH0gQQEBBWgAgfldwUAMcls+MF7PzxsQpYUf9kUt7rj4/a00po+Tc6+jcJHfzK72\nF0yE27I5SdUKnPRpfH2FQofc8GOIiLxulrioXOJo1h606IGzzgNKkh8AUvn0f4Dv\n+biXZ8dRJh6RM712o+BypoVJqgv1JxPCLTKuki/HKEPoP/T9Rxgdx4qYSQ5uocWq\nwGHyyXD6mXASMpr3hYhaGE/2Hqg3+p3g/rZUVWAP0aiaOQc8jLRos7IShM3WxjW5\n3ZKuiSTFo7p1F8Ic2sMcZDmGrgHfCJnSaQZufElMtwKBgQDO2GGi8jFK0DD2Yyn/\nPpYo4SaDCvBOAN9RoeZ++R8TQukTiFvu9ueVJKSDq6d+7yb/0sTvI7HvbQnAss9C\nd9+tLm5nvlZzbDY/kFy8tCFZPHPHN0lVWuY3rkpmedB/ssdZFwfnZBVLOExrdLnv\nxKGMc9EwvWssPdwCqyrMYVWyLwKBgQC5oCyJG71bqWuzTyjrqRJSqcMUAx3szvy4\nU7VOGFek53DgvUGMLFGYu3yCZWlPHculS1BIoZ4U6PJUM72//A5lQ+SZyCONtO9I\nCektc6sy203gX1CY9o51gCEOmofdbj5/f4OOvifnFS0idwnEJkyVHuFRIRXh2QeY\nXebhgF6yJwKBgC1FntkTOUaumojS23ZKNINuBAfadQ4dksNDNDfGPs7wbiMgTT7Y\nO4ehJYDMKTTXEyoa74+HuII201Ohz0s1AXfeGbwLJNDOdnEjH6kNo97sJEsOBrbv\n1kOJmi8jqkbI0mjlaY1zklWMVO2P9sJLvzAGiVqpmrNsNqM+43coNqFxAoGAJ1VQ\nepEdM9IXlzw74IvH7So5wwDSE37cwDZEodK4p6G/InAX9prhg2qe/IZ+pRwcLd9i\nmLFebPHbf4ojOA4yArU7OHbXSczAM1SeS1pKOZGM0/F+g5sjHrTSzGRkS8Bzj9K2\nTsXucKHlGXt930l6StLrTaSkHWI+oMOtC7WG21sCgYBOLjBqQ5nhpSTMUusVAzwA\nTftRMLsChkoG2+c5j2/r1gjhkoXl7yyYDUTk7qJDz9gzbauX/WqopWMBfLtOFuZ8\n0whmmqCkUBUM77R3/SJn/mGAdAgEc0K/XEZcnmSc8ZwWBIyw1STtVu5ildjW/ltq\nqpoCcFoCUOqOCVxnZSRmww==\n-----END PRIVATE KEY-----\n"
+          "required": true
       },
       "GOOGLE_API_KEY": {
           "description": "Google API Key for translation.",
-          "required": false,
-          "value":""
+          "required": false
       },
       "AUTO_TRANSLATION": {
           "description": "Whether to enable auto translation. To enable, you need to set GOOGLE_PROJECT_ID and GOOGLE_API_KEY. Set 'enable' to enable this feature.",
