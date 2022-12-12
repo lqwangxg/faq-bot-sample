@@ -24,7 +24,7 @@
   "dependencies": {
     "bot-express": "^0.3.42",
     "dialogflow": "^0.3.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "grpc": "^1.24.x"
   },
   "devDependencies": {
